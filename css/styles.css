@@ -30,14 +30,6 @@ body {
   font-size: 12px;
 }
 
-/* .page {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
 .page::before {
   content: "";
   position: absolute;
@@ -61,7 +53,6 @@ body {
 
 .container {
   width: 60%;
-  /* max-width: 350px; */
   background-color: var(--color-white);
   margin: 0 auto;
   padding: 20px;
@@ -77,11 +68,6 @@ body {
   background-color: var(--color-gray-100);
   padding-top: 0;
 }
-
-/* .sub-container {
-  background-color: var(--color-gray-300);
-  margin: 0 auto;
-} */
 
 .profile-image {
   width: 8%;
@@ -144,7 +130,6 @@ body {
 }
 
 .samuels-text {
-  /* background-color: var(--color-gray-300); */
   width: 60%;
   color: var(--color-purple-600);
   background-color: hsl(276, 100%, 96%);
