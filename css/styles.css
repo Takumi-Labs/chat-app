@@ -235,10 +235,17 @@ body {
   color: var(--color-gray-500);
 }
 
-@media (min-width: 1000px) {
-  body {
-  }
+footer {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
+footer a {
+  color: var(--color-purple-500);
+}
+
+@media (min-width: 1000px) {
   .page {
     display: flex;
     flex-direction: row;
